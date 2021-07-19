@@ -24,7 +24,12 @@ const styles = StyleSheet.create({
         padding: 10,
         borderRadius: 3,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 1 },
+        shadowOpacity: 0.3,
+        shadowRadius: 1,
+        elevation: 2,
     },
     boxText: {
         color: 'white'
